@@ -1,9 +1,9 @@
 # Document:
 # http://simiki.org/docs/configuration.html
 
-url: 
+url: http://www.xu81.com/pubg_wiki/
 title: 绝地求生中文维基
-root: 
+root: /pubg_wiki
 keywords: 绝地求生,中文,维基百科
 description: 绝地求生中文维基百科
 author: viperasi
@@ -13,7 +13,7 @@ theme: simple2
 category:
   - name: game
     label: 游戏
-  - name: weapon
+  - name: 武器
     label: 武器
   - name: equipment
     label: 装备

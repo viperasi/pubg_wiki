@@ -1,0 +1,30 @@
+---
+title: "绝地求生中文维基百科"
+layout: page
+date: 2017-07-25 12：29
+---
+
+绝地求生中文维基, 数据翻译自来源于[gamepedia](http://battlegrounds.gamepedia.com/PLAYERUNKNOWNS_BATTLEGROUNDS_Wiki).
+wiki系统使用[simiki](https://github.com/tankywoo/simiki), 基于markdown编写内容.
+
+## 游戏
+* [基本信息](game/info.html)
+* [游戏信息](game/game.html)
+* [空投](game/airdrop.html)
+
+## 武器
+* [武器总揽](weapon/nav.html)
+* [突击步枪](weapon/assaultrifles.html)
+
+## 装备
+* [装备总揽](equipment/nav.html)
+
+## 道具
+* [道具总揽](item/nav.html)
+
+## 载具
+* [载具总揽](vehicle/nav.html)
+
+## 流言
+* [流言](myth/myth.html)
+

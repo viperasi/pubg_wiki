@@ -1,21 +1,24 @@
 {%- extends "base.html" %}
 
 {%- block title %}{{ page.title }} - {{ site.title }}{% endblock %}
-
 {%- block container %}
 <div id="header">
   <div class="post-nav">
     {%- if not default_home_page -%}
-    <a href="{{ site.root }}/">Home</a>
+    <a href="{{ site.root }}/">首页</a>
       {%- if page.category -%}
-        {%- for c in page.category.split("/") -%}
+      &nbsp;&#187;&nbsp;<a href="{{ site.root }}/{{ page.category }}/{{ page.category }}.html">{{ page.category }}</a>
+        <!-- {%- for c in page.category.split("/") -%}
           {%- if loop.first -%}
             {%- set id = c -%}
           {%- else -%}
             {% set id = id ~ "-" ~ c -%}
           {%- endif -%}
-          &nbsp;&#187;&nbsp;<a href="{{ site.root }}/#{{ id }}">{{ c }}</a>
-        {%- endfor -%}
+          &nbsp;&#187;&nbsp;<a href="{{ site.root }}/{{page.category}}/{{ id }}.html">{{ c }}</a>
+        {%- endfor -%} -->
+      {%- endif -%}
+      {%- if page.collection -%}
+      &nbsp;&#187;&nbsp;<a href="{{ site.root }}/{{ page.category }}/{{ page.collection }}.html">{{ page.collection }}</a>
       {%- endif -%}
       &nbsp;&#187;&nbsp;{{ page.title }}
     <span class="updated">Page Updated&nbsp;
