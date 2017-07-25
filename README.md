@@ -6,7 +6,7 @@
 # 目录
 1. 游戏(game)
     * 基本信息(info)
-    * 跳伞(airdrop)
+    * 空投(airdrop)
     * 控制(control)
     * 模式(gamemode)
     * 赏金(awards)
