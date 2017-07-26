@@ -81,12 +81,13 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
     margin-bottom: 1em;
-    border: 1px solid #ccc;
+    border: none;
 }
 
 td {
     vertical-align: top;
     padding: 3px 6px;
+    border: 1px solid #ccc;
 }
 
 /* Optimization for pre and code tag */
